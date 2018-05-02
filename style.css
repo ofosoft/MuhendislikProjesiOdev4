@@ -1,0 +1,256 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, tr, th, td {
+	margin:0;
+	padding:0;
+	border:0;
+	-moz-outline:none;
+	outline:0;
+	background:transparent;
+}
+html{
+	overflow:auto;
+}
+body {
+	width:100%;
+	height:100%;
+	background:url(img/bg.jpg) center 0;
+	background-color:#ffffff;
+	line-height:1;
+	font-size: 13px ;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-attachment: fixed;
+	background-size: auto;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+a:hover {
+    color: #f11110;
+    text-decoration: none;
+}
+.sonucAmpul{
+	margin-top:50px;
+}
+.govde{
+	background: #ffffff;
+	border-radius: 10px;
+	margin-right: 10px;
+	border: #D8D8D8 1px solid;
+	width: 98%;
+	min-height: 50px;
+	padding: 10px;
+	margin-top: 15px;
+}
+.sol{
+	background: #ffffff;
+	border-radius: 10px;
+	margin-right: 10px;
+	border: #D8D8D8 1px solid;
+	width: 30%;
+	height: 500px;
+	padding-top: 10px;
+}
+.cerceve{
+	margin-left: 8px;
+  /*  width: 100%;*/
+    background: #f8f8f8;
+    border-radius: 10px;
+    border: 1px solid #bdbdbd;
+	padding:15px;
+	min-height: 87px;
+}
+.cerceve:hover{
+    background: #fcffd4;
+    border: 1px solid #4adce8;
+}
+.sag{
+	background: #ffffff;
+	border: #D8D8D8 1px solid;
+	border-radius: 10px;
+	height: 500px;
+}
+
+.pano {
+    width: 100%;
+    height: 480px;
+    margin: 10px;
+    padding: 10px;
+    /*border: 1px solid black;*/
+}
+
+.pano .arka{
+    width: 120px;
+    height: 85px;
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid #d8d8d8;
+    border-radius: 50%;
+    background: #fafff7;
+	padding-left: 0px;
+}
+.pano .arka .tablo:hover{
+	background: #BFF4FF;
+}
+.tablo:hover{
+	background: #e5faff;
+}
+.kucukbuton{
+    padding: 6px;
+    border-radius: 10px;
+    border: 1px;
+    background: #333333;
+    color: #ffffff;
+}
+.kucukbuton:hover{
+	background: #33bfea;
+}
+.baslik{
+	padding:10px; background:#f7f7f7; margin-bottom:8px; border-radius:7px;
+}
+a.tooltips {
+  position: relative;
+  display: inline;
+}
+a.tooltips span {
+  position: absolute;
+  width:200px;
+  color: #FFFFFF;
+  background: #000000;
+  min-height: 30px;
+  line-height: 30px;
+  visibility: hidden;
+  border-radius: 6px;
+}
+a.tooltips span:after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -8px;
+  width: 0; height: 0;
+  border-top: 8px solid #000000;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+}
+
+a:hover.tooltips span {
+  visibility: visible;
+  opacity: 0.9;
+  bottom: 50px;
+  left: 50%;
+  margin-left: -115px;
+  z-index: 999;
+}
+
+/* display: table; kodu div tagimiza <table> etiketi özelligini verecek */
+.table {
+	width: 100%;
+	display: table;
+}
+
+/* display: table-row; kodu div tagimiza <tr> etiketi özelligini verecek */
+.table div {
+	display: table-row;
+}
+
+/* display: table-cell; kodu div tagimiza <td> etiketi özelligini verecek */
+.table div div {
+	display: table-cell;
+	text-align: center;
+	border-bottom:#f8f8f8 1px dotted;
+}
+
+/* altta ki kod divimize <th> etiketi özelligini verecek */
+.table div div.th {
+	font-weight: bold;
+	text-align: center;
+	border-bottom:#f8f8f8 1px solid; 
+	padding-bottom:5px
+}
+.ortasecim{
+	display: inline-block;
+    margin-top: 17px;
+    width: 37px;
+    height: 17px;
+	font-size: 11px;
+    font-weight: bold;
+	position: absolute;
+}
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    border-top: 1px solid #a3d9f3;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius:10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius:10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius:10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+    border-radius:10px;
+}
+.alt img{
+	transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+.alt img:hover{
+	transform: rotate(360deg) scale(.8);
+	-webkit-transform: rotate(360deg) scale(.8);
+}	
+.tablo0{
+	padding:7px; background:#fff4f4; border-radius:7px; margin-right:5px; margin-left:5px;
+}
+.tablo0:hover{
+	background:#bcefff;
+}
+.tablo1{
+	padding:7px; background:#f7f7f7; border-radius:7px; margin-right:5px; margin-left:5px;
+}
+.tablo1:hover{
+	background:#ddfbd1;
+}
+.ac{
+	background:#d8922f;
+	border-radius:2px;
+	padding: 4px 6px;
+	color:#f8f8f8;
+	cursor: pointer;
+}
+.ac:hover{
+	background:#24a929;
+}
+.kapat{
+	background:#d8922f;
+	border-radius:2px;
+	padding: 4px 6px;
+	color:#f8f8f8;
+	cursor: pointer;
+}
+.kapat:hover{
+	background:#2ba1c5;
+}
+.progress {
+    height: 20px;
+    margin-bottom: 0px;
+    overflow: hidden;
+    background-color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid #b3b3b3;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+}
